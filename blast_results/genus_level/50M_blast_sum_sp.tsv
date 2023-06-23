@@ -53,7 +53,7 @@ C-500	C-387	C-387	C-387	C-387	C-387
 2700@Byrsonima	2764@Byrsonima	2764@Byrsonima	2693@Byrsonima	2693@Byrsonima	FAIL
 4004@Triaspis	1176@Triaspis	1176@Triaspis	1176@Triaspis	FAIL	1176@Triaspis
 3980@Heteropterys	3301@Heteropterys	821@Mascagnia	FAIL	FAIL	3279@Heteropterys
-3129@Tetrapterys	FAIL	FAIL	FAIL	FAIL	1774@Bunchosia
+3129@Bunchosia	FAIL	FAIL	FAIL	FAIL	1774@Bunchosia
 1770@Bunchosia	679@Bunchosia	1774@Bunchosia	1774@Bunchosia	1774@Bunchosia	1774@Bunchosia
 3341@Aspidopterys	3518@Amorimia	3386@Malpighia	3342@Aspidopterys	FAIL	FAIL
 1716@Dicella	FAIL	FAIL	FAIL	FAIL	1705@Dicella
@@ -144,7 +144,7 @@ C-414	C-303	C-48	C-303	FAIL	C-303
 2100@Callaeum	1702@Callaeum	1702@Callaeum	1699@Callaeum	1699@Callaeum	1702@Callaeum
 1939@Diplopterys	1240@Diplopterys	1240@Diplopterys	1240@Diplopterys	1860@Bronwenia	3606@Diplopterys
 944@Tetrapterys	644@Carolus	3423@Tetrapterys	3431@Christianella	S-6	FAIL
-3235@Malpighia	679@Bunchosia	3935@Bunchosia	2168@Bunchosia	FAIL	679@Bunchosia
+3235@Bunchosia	679@Bunchosia	3935@Bunchosia	2168@Bunchosia	FAIL	679@Bunchosia
 746@Aspicarpa	1678@Aspicarpa	1678@Aspicarpa	1678@Aspicarpa	FAIL	1678@Aspicarpa
 1877@Bronwenia	1860@Bronwenia	1860@Bronwenia	706@Cottsia	FAIL	1944@Bronwenia
 1845@Bronwenia	1860@Bronwenia	1860@Bronwenia	1860@Bronwenia	FAIL	1860@Bronwenia
