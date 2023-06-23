@@ -1,6 +1,6 @@
 sp	matK	rbcL	ndhF	trnL-F	ITS	Concatenated_phylogeny
 2764@Byrsonima	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
-1678	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
+1678@Aspicarpa_sericea	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 1089@Triaspis	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 1102@Acridocarpus	69@Acridocarpus	69@Acridocarpus	69@Acridocarpus	69@Acridocarpus	FAIL	Acridocarpus
 1162@Camarea	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
@@ -9,10 +9,10 @@ sp	matK	rbcL	ndhF	trnL-F	ITS	Concatenated_phylogeny
 1176@Triaspis	4004@Triaspis	4004@Triaspis	1915@Mascagnia	FAIL	4004@Triaspis	Triaspis
 1182@Tristellateia	FAIL	FAIL	FAIL	FAIL	3680@Tristellateia	Tristellateia
 1240@Diplopterys	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
-1285@Aspidopterys	FAIL	4004@Triaspis	FAIL	FAIL	FAIL	Aspidopterys
+1285@Aspidopterys	FAIL	4004@Triaspis	FAIL	FAIL	FAIL	undetermined
 1314@Hiptage	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 1324@Microsteira	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
-1382@Microsteira	3518@Amorimia	3386@Malpighia	4004@Triaspis	FAIL	FAIL	Microsteira
+1382@Microsteira	3518@Amorimia	3386@Malpighia	4004@Triaspis	FAIL	FAIL	Aspidopterys
 1386@Microsteira	1382@Microsteira	1661@Microsteira	1661@Microsteira	3386@Malpighia	FAIL	Microsteira
 1502@Tristellateia	3121@Tristellateia	3121@Tristellateia	3121@Tristellateia	3121@Tristellateia	FAIL	Tristellateia
 1503@Hiptage	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
@@ -84,7 +84,7 @@ sp	matK	rbcL	ndhF	trnL-F	ITS	Concatenated_phylogeny
 2909@Elatine	2906@Elatine	2906@Elatine	2906@Elatine	FAIL	FAIL	Elatine
 2942@Tetrapterys	644@Carolus	3676@Tetrapterys	3676@Tetrapterys	FAIL	3676@Tetrapterys	Tetrapterys
 2960@Banisteriopsis	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
-2985@Heteropterys	FAIL	FAIL	FAIL	FAIL	1165@Dicella	Heteropterys
+2985@Heteropterys	FAIL	FAIL	FAIL	FAIL	1165@Dicella	undetermined
 3013@Banisteriopsis	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 3121@Tristellateia	1502@Tristellateia	1502@Tristellateia	1502@Tristellateia	FAIL	3680@Tristellateia	Tristellateia
 3122@Triaspis	4004@Triaspis	1174@Triaspis	1174@Triaspis	FAIL	FAIL	Triaspis

@@ -19,7 +19,7 @@ sp	matK	rbcL	ndhF	trnL-F	ITS	Concatenated_phylogeny
 1531@Amorimia	3518@Amorimia	1534@Amorimia	3338@Amorimia	FAIL	3518@Amorimia	Amorimia
 1534@Amorimia	3518@Amorimia	1531@Amorimia	3518@Amorimia	FAIL	3518@Amorimia	Amorimia
 1538@Carolus	644@Carolus	1702@Callaeum	1703@Callaeum	FAIL	1590@Carolus	Carolus
-1543@Carolus	1503@Hiptage	1503@Hiptage	1503@Hiptage	1503@Hiptage	FAIL	Carolus
+1543@Carolus	1503@Hiptage	1503@Hiptage	1503@Hiptage	1503@Hiptage	FAIL	Hiptage
 1556@Malpighia	3234@Malpighia	3230@Malpighia	3234@Malpighia	3386@Malpighia	3230@Malpighia	Malpighia
 1570@Malpighiodes	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 1582@Galphimia	2207@Galphimia	2207@Galphimia	2207@Galphimia	1717@Galphimia	FAIL	Galphimia
@@ -83,7 +83,7 @@ sp	matK	rbcL	ndhF	trnL-F	ITS	Concatenated_phylogeny
 2909@Elatine	2279@Elatine	2906@Elatine	2906@Elatine	2279@Elatine	2272@Elatine	Elatine
 2942@Tetrapterys	3423@Tetrapterys	3676@Tetrapterys	3676@Tetrapterys	FAIL	3676@Tetrapterys	Tetrapterys
 2960@Banisteriopsis	FAIL	FAIL	FAIL	FAIL	1850@Banisteriopsis	Banisteriopsis
-2985@Heteropterys	FAIL	FAIL	FAIL	FAIL	C-129	Heteropterys
+2985@Heteropterys	FAIL	FAIL	FAIL	FAIL	C-129	Burdachia
 3013@Banisteriopsis	FAIL	FAIL	FAIL	FAIL	FAIL	FAIL
 3121@Tristellateia	1502@Tristellateia	1502@Tristellateia	1502@Tristellateia	1502@Tristellateia	3680@Tristellateia	Tristellateia
 3122@Triaspis	1176@Triaspis	1174@Triaspis	1174@Triaspis	FAIL	1174@Triaspis	Triaspis
