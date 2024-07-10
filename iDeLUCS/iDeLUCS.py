@@ -38,11 +38,11 @@ print(kmers.shape)
 
 n_cluster = 10
 params = {
-    "iDeLUCS": {'sequence_file':fasta_file,'n_clusters':n_cluster, 'n_epochs':50,
-                'n_mimics':50, 'batch_sz':512, 'k':k, 'weight':0.75, 'n_voters':5},
+    "iDeLUCS": {'sequence_file':fasta_file,'n_clusters':n_cluster, 'n_epochs':100,
+                'n_mimics':100, 'batch_sz':512, 'k':k, 'weight':0.75, 'n_voters':5},
     }
 
-# Definition of the clustering algorithms for now only iDeLUCS but you can add otehr to compare
+# Definition of the clustering algorithms for now only iDeLUCS but you can add other to compare
 clustering_algorithms = (
     ("iDeLUCS", iDeLUCS_cluster),
 )
@@ -54,6 +54,6 @@ for name, algorithm in clustering_algorithms:
 
 ind, d = cluster_acc(np.array(GT).reshape(-1,1), y_pred)
 print(f"\n The accuracy of the model is: {d}")
-#d_200m 0.49
+#d_200m 0.59
 #d_100m 0.32
 #d_50m 0.30
