@@ -9,7 +9,7 @@ import umap
 from idelucs.utils import SummaryFasta, kmersFasta, cluster_acc
 from idelucs.cluster import iDeLUCS_cluster
 
-fasta_file = "conc.200m.aln.fas"
+fasta_file = sys.argv[1]
 GT_file = "conc_GT.tsv"
 k = 6
 
@@ -53,7 +53,15 @@ for name, algorithm in clustering_algorithms:
 	y_pred, latent = model.fit_predict(fasta_file )
 
 ind, d = cluster_acc(np.array(GT).reshape(-1,1), y_pred)
-print(f"\n The accuracy of the model is: {d}")
-#d_200m 0.59
-#d_100m 0.32
-#d_50m 0.30
+out=open(sys.argv[1]+'.result','w')
+out.write(f"\n The accuracy of the model is: {d}")
+#200 Mb 	0.59
+#100 Mb		0.6
+#50 Mb 		0.29
+#20 Mb 		0.27
+#10 Mb 		0.29
+
+
+##########################################
+#using concatenated assemblies of plastid and ITS assemblies to rerun the analysis
+#1. use merge_assemblies.py to merge plastid+ITS sequences
