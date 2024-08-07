@@ -9,7 +9,7 @@ import umap
 from idelucs.utils import SummaryFasta, kmersFasta, cluster_acc
 from idelucs.cluster import iDeLUCS_cluster
 
-fasta_file = "conc.200m.aln.fas"
+fasta_file = "conc.10m.aln.fas"
 GT_file = "conc_GT.tsv"
 k = 6
 
@@ -38,8 +38,8 @@ print(kmers.shape)
 
 n_cluster = 10
 params = {
-    "iDeLUCS": {'sequence_file':fasta_file,'n_clusters':n_cluster, 'n_epochs':100,
-                'n_mimics':100, 'batch_sz':512, 'k':k, 'weight':0.75, 'n_voters':5},
+    "iDeLUCS": {'sequence_file':fasta_file,'n_clusters':n_cluster, 'n_epochs':50,
+                'n_mimics':50, 'batch_sz':512, 'k':k, 'weight':0.75, 'n_voters':5},
     }
 
 # Definition of the clustering algorithms for now only iDeLUCS but you can add other to compare
@@ -55,5 +55,7 @@ for name, algorithm in clustering_algorithms:
 ind, d = cluster_acc(np.array(GT).reshape(-1,1), y_pred)
 print(f"\n The accuracy of the model is: {d}")
 #d_200m 0.59
-#d_100m 0.32
-#d_50m 0.30
+#d_100m 0.6
+#d_50m 0.29
+#d_20m 0.27
+#d_10m 0.29
